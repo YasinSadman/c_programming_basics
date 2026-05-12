@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // This prints the text to the screen
+    
     int n;
     printf("Enter the vaalue of n...:");
     scanf("%d",&n);
