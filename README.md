@@ -1,3 +1,3 @@
 # c_programming_basics
-First repository for learning the C language
+My first repository for learning the C language,
 Author - Md. Yasin Sadman Hossain
