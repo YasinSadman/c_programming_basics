@@ -12,7 +12,7 @@ int main() {
     scanf("%lf",&T);
 
     m =((P*V)/(0.37*(T+460)));
-    printf("The mass is....:%0.3lf\n",m);
+    printf("The mass is....:%0.3lf",m);
     
     
     return 0;
