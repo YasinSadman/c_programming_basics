@@ -1,5 +1,6 @@
 #include <stdio.h>
-double abs(double n);
+
+double modulus(double n);
 
 int main() {
     
@@ -21,20 +22,16 @@ int main() {
     double area;
     area = (x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2));
 
-    printf("Area is %lf\n",abs(area*0.5));
+    printf("Area is %lf\n", modulus(area*0.5));
 
-    
     return 0;
-
-
 }
 
-double abs(double n){
+double modulus(double n){
     if(n < 0){
-        return n*-1;
+        return n * -1;
     }
     else {
         return n;
     }
-
 }
