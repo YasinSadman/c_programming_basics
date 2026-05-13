@@ -19,7 +19,7 @@ int main() {
     D = ((a1*b2)-(a2*b1));
     
 if(D == 0.00){
-    printf("Invalid Input..");
+    printf("No unique solution exists");
 }
 else {
     printf("The required value of x is : %0.3lf\n",((c1*b2)-(c2*b1))/D);
