@@ -20,7 +20,7 @@ int main() {
 
 double total_price (double a, double b,double c){
 
-    double price = (a-(a*(c/100));
+    double price = (a-(a*(c/100)));
 
     return price + price * (b/100);
 }
