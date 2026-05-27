@@ -2,16 +2,16 @@
 
 int main() {
     
-    int  n,m=9;
+    int  n,m = 0;
 
-    printf("This program prints the m,ultiplication table of n...\n");
-    printf("Enter the value of n..\n");
+    printf("This program prints the multiplication table of n...\n");
+    printf("Enter the value of n..");
 
     scanf("%d",&n);
 
     for(int i = 1;i <= 10;i++){
+        m = m + n;
         printf("%d x %d = %d\n",n,i,m);
-        m=m+n;
     }
     
     return 0;
