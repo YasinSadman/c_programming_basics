@@ -5,7 +5,7 @@ int main() {
     int  n,m = 0;
 
     printf("This program prints the multiplication table of n...\n");
-    printf("Enter the value of n..");
+    printf("Enter the value of n...:");
 
     scanf("%d",&n);
 
